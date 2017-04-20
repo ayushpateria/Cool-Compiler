@@ -29,7 +29,7 @@ if(text.charAt(i) == '\u0000')
 
 ### Handling Comments
 
-The thing which needs to be handled with caution here is to make sure all the opening comment tags are properly codes. We have a solution for it using two modes, one for the first comment and the others for subsequent ones.
+The thing which needs to be handled with caution here is to make sure all the opening comment tags are properly closed. We have a solution for it using two modes, one for the first comment and the other for the subsequent ones.
 
 ### Test Cases
 
