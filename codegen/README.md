@@ -42,4 +42,4 @@ The strings are stored as the data type `[1024 x i8]` in the struct. To assign a
 		};
 	};
 
-    This wouldn't work! Because this means we are returning an object of type main and we are expecting a return of IO object. The return type and the type of object returned have to be exactly same! However, changing IO to Main in the method return type should be fine (But it gave me a semantic error with the implementaion given! while origninal coolc runs it fine).
+    This wouldn't work! Because this means we are returning an object of type main and are expecting return of an IO object. The return type and the type of object returned have to be exactly same! However, changing IO to Main in the method return type should be fine (But it gave me a semantic error with the implementaion given! while origninal coolc runs it fine).
